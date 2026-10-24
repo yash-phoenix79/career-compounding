@@ -13,10 +13,16 @@ An API for agents to search the web, scrape pages into Markdown/HTML/structured 
 
 ### The Open Frontier
 Website: https://www.theopenfrontier.com/?uc=strategy
+Methodology: https://www.theopenfrontier.com/methodology
+Cost calculator: https://www.theopenfrontier.com/calculator
 
-Compares open and closed models by use case, public benchmark scores, and estimated cost. Includes model leaderboards, capability breakdowns, a cost calculator, and a methodology page.
+Compares open and closed models by use case, public benchmark scores, and estimated cost. The Strategy view is one of its use-case boards: select a workload category, inspect candidate models and their benchmark breakdowns, and compare quality against estimated task cost. The site also provides broader leaderboards, intelligence-per-dollar views, and a workload cost calculator.
 
-**Experiment:** Choose a real coding or agent task and a fixed evaluation set. Compare two candidate models on task success, latency, and cost. Use the site to shortlist models, then verify against your own workload. Benchmarks are proxies; rankings and prices change.
+Its methodology says the benchmark scores come from Artificial Analysis and the cost figures use published provider rates; the site refreshes its data regularly. The rankings are useful for shortlisting, not proof that a model will perform best on our own tasks. Model versions, prices, benchmark coverage, and provider performance change.
+
+**Experiment:** Pick one real strategy/research or coding-agent task and create a small fixed evaluation set with expected outcomes. Compare two candidate models on task success, factuality, latency, and actual cost. Use the Strategy board to shortlist, then verify against our own workload. Do not choose solely on a single composite score or estimated cost.
+
+**Decision rule:** Choose the cheapest model that reliably clears the quality bar for the task, not the cheapest model overall. Route harder or higher-risk tasks to a stronger model only when the evaluation shows the improvement is worth the extra cost.
 
 ### Hallmark
 Website: https://www.usehallmark.com/
