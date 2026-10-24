@@ -78,3 +78,19 @@ Update numbers honestly. Do not infer historical completion; update only when ev
 - Keep tasks small enough to finish in one or two sessions.
 - If a task stalls for two sessions, reduce scope or ask for a focused review.
 - Do not create another tracker; this repository is the evidence log.
+
+
+## Daily proof-of-record template
+
+Copy one entry per day when logging actual work. Keep it factual; omit proprietary Amazon details and confidential code.
+
+### YYYY-MM-DD
+- **Backend concept + evidence:**
+- **Trade-off/failure mode:**
+- **LLD artifact + decision:**
+- **AI concept + takeaway/experiment:**
+- **Applied output / proof link:** commit, test output, artifact, or `learning-only` if no implementation was shipped.
+- **Work impact (optional):** non-confidential delivery, investigation, review, or communication improvement.
+- **Next executable action:**
+
+A day can count as a learning day without shipping a feature, but passive consumption alone is not strong evidence. Every week should leave at least one reviewable implementation, test, or design artifact from the active project.
