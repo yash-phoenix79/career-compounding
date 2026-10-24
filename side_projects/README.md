@@ -5,6 +5,7 @@ Small, scoped experiments for tools and systems worth testing. Keep research, de
 ## Projects
 
 ### Decision Intelligence System
+- **Personal log:** [Decision Intelligence App — Personal Log](DECISION_INTELLIGENCE_LOG.md)
 - **Research:** [Decision Intelligence System: Research, Architecture & Build Plan](DECISION_INTELLIGENCE_SYSTEM.md)
 - **Problem:** Make consequential decisions through evidence-based research, independent perspectives, adversarial review, selective scenario simulation, and outcome tracking.
 - **Recommendation:** Start with a small Decision Council MVP; compare it against a single-agent baseline. Add MiroFish only when a real use case benefits from agent-based scenario simulation.
