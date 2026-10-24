@@ -127,3 +127,9 @@ See [LEVERAGE_ENGINEER_PLAYBOOK.md](LEVERAGE_ENGINEER_PLAYBOOK.md) for the capab
 The intended specialization is an **AI-native product and systems engineer**: someone who can understand a real problem, design and implement reliable backend systems, use AI agents effectively, evaluate AI behavior, ship and operate products, and communicate trade-offs. This is the long-term direction, not a new parallel daily track.
 
 Locked execution remains: backend fundamentals + LLD + AI knowledge every day; one tangible contribution to an active project each weekend; 60-minute target and 90-minute planned learning cap; one main project; evidence over intentions; protect sleep and job delivery. Daily records belong in `PROGRESS.md`.
+
+## Ambition system (locked)
+
+See [AMBITION_SYSTEM.md](AMBITION_SYSTEM.md) for the stress-tested operating system covering agency, reality modeling, healthy attention, AI-native engineering, open source, public presence, product/business validation, career progression, and the 90-day scorecard.
+
+This is an integration layer, not a new daily workload. The existing daily contract remains backend fundamentals + LLD + AI knowledge; one tangible project contribution every weekend; one main project; evidence over intentions; protect sleep and Amazon delivery. Do not add parallel tracks or redesign the roadmap.
