@@ -83,3 +83,38 @@ Every weekend:
 ## Full resource shelf
 
 See [RESOURCE_LIBRARY.md](RESOURCE_LIBRARY.md) for the consolidated library across DSA, LLD, backend, CS fundamentals, HLD, distributed systems, AI engineering, projects, open source, engineering judgment, books, interviews, and public presence.
+
+
+## Product launch minimum (locked)
+
+The full engineering checklist is a risk-based map, not a requirement to implement every enterprise practice before launch.
+
+### Required for a credible first launch
+- A specific user/problem and one clear core use case.
+- Deliberately small MVP scope and an end-to-end working vertical slice.
+- Reasonable data model and architecture for current scale; clear errors and validation.
+- Tests for critical business behavior and important failure paths.
+- Appropriate authentication, authorization, secrets handling, privacy, and data protection for the product's actual risks.
+- Reproducible setup/build, environment configuration, deployment, and a way to roll back or recover.
+- Basic logs/error visibility and a known way to investigate failures.
+- Useful README/setup guide, known limitations, and feedback channel.
+- Real user feedback or a credible test with target users.
+- For AI features: a small representative evaluation set, checks for critical failure modes, and visibility into quality, latency, and cost.
+
+### Usually defer unless justified
+- Microservices, Kubernetes, Kafka, elaborate multi-agent orchestration, vector databases, and other infrastructure that doesn't solve a current demonstrated problem.
+- Enterprise-scale observability, exhaustive load testing, elaborate documentation, and generalized abstractions beyond the product's current risk and usage.
+- Premature optimization and speculative features.
+
+### Launch rule
+Build the smallest useful version, verify critical behavior, deploy it, get feedback, and improve it. Raise rigor in proportion to data sensitivity, safety impact, user count, and failure cost. Never use MVP as an excuse for insecure handling of secrets/data or untested critical behavior.
+
+## Builder role-model protocol (locked)
+
+See [BUILDER_ROLE_MODELS.md](BUILDER_ROLE_MODELS.md) for the ten researched builders, public evidence, practices to adopt, cautions, and a 45-minute reverse-engineering protocol.
+
+- The role-model list is a reference shelf, not a new daily task.
+- Study at most one builder in a week, and only when a current engineering problem makes the study useful.
+- A study must result in one applied practice, experiment, code/design artifact, or concise engineering lesson.
+- Current priorities remain: daily backend fundamentals, LLD practice, AI knowledge; tangible weekend contribution to one active project; strong delivery at Amazon; protect sleep.
+- SDE-2/SDE-3 growth comes from demonstrated judgment, implementation, testing, debugging, ownership, communication, and shipped outcomes—not consuming more role-model content.
