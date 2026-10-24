@@ -118,3 +118,12 @@ See [BUILDER_ROLE_MODELS.md](BUILDER_ROLE_MODELS.md) for the ten researched buil
 - A study must result in one applied practice, experiment, code/design artifact, or concise engineering lesson.
 - Current priorities remain: daily backend fundamentals, LLD practice, AI knowledge; tangible weekend contribution to one active project; strong delivery at Amazon; protect sleep.
 - SDE-2/SDE-3 growth comes from demonstrated judgment, implementation, testing, debugging, ownership, communication, and shipped outcomes—not consuming more role-model content.
+
+
+## High-leverage engineer playbook (locked)
+
+See [LEVERAGE_ENGINEER_PLAYBOOK.md](LEVERAGE_ENGINEER_PLAYBOOK.md) for the capability stack, learning order, daily practice, proof-of-record template, AI-agent workflow, launch bar, and SDE-2/SDE-3 growth evidence.
+
+The intended specialization is an **AI-native product and systems engineer**: someone who can understand a real problem, design and implement reliable backend systems, use AI agents effectively, evaluate AI behavior, ship and operate products, and communicate trade-offs. This is the long-term direction, not a new parallel daily track.
+
+Locked execution remains: backend fundamentals + LLD + AI knowledge every day; one tangible contribution to an active project each weekend; 60-minute target and 90-minute planned learning cap; one main project; evidence over intentions; protect sleep and job delivery. Daily records belong in `PROGRESS.md`.
