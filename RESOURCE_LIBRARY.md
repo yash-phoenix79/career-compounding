@@ -2,15 +2,24 @@
 
 **North star:** Become an exceptional engineer who can understand systems from first principles, design and implement them, debug failures, operate them reliably, and build useful AI-powered products. **SDE-2 is the near-term milestone, not the ceiling.**
 
-This is a reference library, not a consumption checklist. Do not study every resource at once. The current daily operating loop is **LLD practice + Backend from First Principles**. Keep both moving in small, concrete increments.
+This is a reference library, not a consumption checklist. The locked operating contract is **daily Backend from First Principles + daily LLD practice + daily AI knowledge, plus a tangible project contribution every weekend**. Keep increments small and evidence-based.
 
-## 1. Current daily anchors
+## 1. Locked daily and weekend anchors
 
-1. **LLD practice:** Continue the current exercise in this repository. Start with library-management requirements, then model responsibilities, implement in Java, test, and document trade-offs.
-2. **Backend from First Principles:** https://backend-from-first-principle.vercel.app/ — study the next relevant concept and connect it to a small implementation or written explanation.
-3. **Evidence:** Update `PROGRESS.md` with what was actually produced. Do not count passive watching or reading as completion.
-4. **Time:** Aim for 60 minutes; cap planned learning at 90 minutes. On a difficult day, do 15 minutes and write the next action.
-5. **Job performance:** Apply the learning at Amazon through deep investigation, validating assumptions, early blocker communication, reliable delivery, and end-to-end ownership.
+### Every day
+1. **Backend from First Principles:** https://backend-from-first-principle.vercel.app/ — study the next concept and connect it to a small implementation, experiment, or written explanation.
+2. **LLD practice:** continue the current exercise. Start with library-management requirements, then model responsibilities, implement in Java, test, and document trade-offs.
+3. **AI knowledge:** https://aiengineeringfromscratch.com/ — study one small concept and capture a practical takeaway. Use the other AI references below when directly relevant.
+
+### Every weekend
+4. **Project contribution:** make one tangible contribution to one active project: implement a feature slice, fix a bug, add tests, improve reliability, document an architecture decision, or make a meaningful open-source contribution. Prefer the existing active project; do not start a new project just to satisfy this.
+
+### Execution constraints
+- Aim for 60 minutes total on normal days; maximum planned learning is 90 minutes. Keep the three daily increments focused and small.
+- On a difficult day, do 5–15 minutes per area or record a concrete takeaway and next action if energy is very low. Resume the next day.
+- A project contribution should leave reviewable evidence: a commit, tested change, demo, or documented decision.
+- Update `PROGRESS.md`. Passive reading/watching alone is not completion.
+- Protect sleep and job delivery. Do not compensate for missed work with all-nighters.
 
 ## 2. DSA and interview problem-solving
 
@@ -23,7 +32,7 @@ This is a reference library, not a consumption checklist. Do not study every res
 
 **Topics:** complexity analysis; arrays and strings; hashing; two pointers; sliding windows; binary search; linked lists; stacks and queues; trees; heaps; recursion and backtracking; graphs; greedy algorithms; dynamic programming; tries; union-find; intervals; monotonic stacks.
 
-**Practice rule:** Use C++ for DSA. Prioritise understanding, correctness, complexity, explaining the approach, and revisiting failed problems over chasing a problem count.
+**Practice rule:** Use C++ for DSA. Prioritise understanding, correctness, complexity, explaining the approach, and revisiting failed problems over chasing a problem count. DSA remains a supporting SDE-2 workstream.
 
 ## 3. LLD, OOP, design patterns, and machine coding
 
@@ -199,19 +208,9 @@ Share actual work: a design trade-off, a debugging investigation, a measured per
 
 Finance and AI/finance repositories are secondary to the current engineering loop. Keep them in their own track until the core daily routine is stable.
 
-## 16. Daily execution contract
-
-- **Every day:** move LLD forward and study Backend from First Principles. Leave a concrete artifact or note connecting learning to implementation.
-- **60 minutes default; 90-minute maximum.** On a hard day, do 15 minutes and record the next step.
-- One active learning task and one main project at a time.
-- DSA interview practice is a supporting SDE-2 workstream; schedule it deliberately without replacing the two daily anchors.
-- Protect sleep and work delivery. Do not use all-nighters to compensate for missed sessions.
-- No resource collecting, weekly roadmap redesign, or starting new projects when the current one gets difficult.
-- Weekly, review evidence, run tests, update `PROGRESS.md`, and choose one next task.
-- A session counts when it produces something: requirements, a design, code, tests, a solved/reviewed problem, an investigation, or a clear written explanation.
-
-## 17. Canonical progress files
+## 16. Canonical progress files
 
 - Roadmap: [ROADMAP.md](ROADMAP.md)
 - Progress log: [PROGRESS.md](PROGRESS.md)
-- Current repository: https://github.com/yash-phoenix79/career-compounding
+- Resource library: [RESOURCE_LIBRARY.md](RESOURCE_LIBRARY.md)
+- Repository: https://github.com/yash-phoenix79/career-compounding
