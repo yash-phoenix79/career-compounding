@@ -8,6 +8,7 @@ People whose work I want to study as I grow into a stronger software engineer an
 - **[Tanay Kothari](https://www.google.com/search?q=Tanay+Kothari+software+engineer)** — Study his technical work, building approach, and career decisions. Add primary links to specific projects or talks as I identify the ones most relevant to me.
 - **[Lauren Tan](https://www.google.com/search?q=Lauren+Tan+software+engineer)** — Study her engineering work, technical communication, and approach to building.
 - **[Harkirat Singh](https://www.google.com/search?q=Harkirat+Singh+software+engineer)** — Study his teaching, practical project-building, and ability to help developers learn by doing.
+- **[Khushi Panwar (@smilewithkhushi)](https://x.com/smilewithkhushi)** — Study her blend of developer advocacy, technical education, content creation, and community/ecosystem building across Web3, AI, and developer tools. Focus on how she makes complex technology approachable and helps developers discover and adopt products. Treat public profile claims as self-reported unless independently verified.
 
 ## What to learn from them
 
