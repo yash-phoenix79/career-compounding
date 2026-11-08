@@ -41,6 +41,14 @@ Explain the concept as if teaching another engineer. Identify where the explanat
 - **Evidence / output:**
 - **Failure encountered and diagnosis:**
 
+## Transfer test
+
+- **Stack-specific detail I learned:**
+- **Underlying principle independent of the stack:**
+- **Where else this principle applies:**
+- **How I would recognize it in an unfamiliar codebase:**
+- **Evidence that I can transfer it:**
+
 ## Production scenario
 
 Describe a realistic incident, scaling constraint, security issue, or design review. Record the decision and rationale.
@@ -51,4 +59,4 @@ Describe a realistic incident, scaling constraint, security issue, or design rev
 - **What I can now explain:**
 - **What I can independently build/debug:**
 - **What remains unclear:**
-- **Next action:**
+- **Next action (one only):**
