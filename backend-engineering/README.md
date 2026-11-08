@@ -40,7 +40,8 @@ A session can span multiple days when the concept is substantial. One-video-per-
 ## Repository map
 
 - [CURRICULUM.md](CURRICULUM.md) — source map and topic progression.
-- [METHODOLOGY.md](METHODOLOGY.md) — the question framework, grilling protocol, and mastery standard.
+- [METHODOLOGY.md](METHODOLOGY.md) — the foundational question bank, grilling protocol, and mastery standard.
+- [LEARNING-PLAN.md](LEARNING-PLAN.md) — the locked QDD operating agreement, 90-day plan, daily practice, AI principles, and career capability targets.
 - [PROGRESS.md](PROGRESS.md) — current state and next action.
 - [templates/CONCEPT-NOTE.md](templates/CONCEPT-NOTE.md) — durable concept notes.
 - [templates/DAILY-LEARNING-LOG.md](templates/DAILY-LEARNING-LOG.md) — daily session record.
