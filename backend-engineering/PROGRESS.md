@@ -9,7 +9,7 @@
 - **Current phase:** Phase 1 — Story & Philosophy
 - **Current topic:** Why does a backend exist?
 - **Current exercise:** Question 1 — Why can't a mobile application connect directly to a database and fetch an account balance?
-- **Mastery:** Lesson not yet assessed. The earlier three-phase learning structure is familiar, but the first substantive lesson has not been answered or independently tested.
+- **Mastery:** Introductory philosophy is familiar (Level 1–2); the first substantive backend lesson has not yet been answered or independently tested.
 - **Last updated:** 2026-11-08
 
 ## Resources
@@ -25,12 +25,13 @@
 
 ## Learning evidence
 
-- Read the introductory transcript explaining Story & Philosophy → Implementation → Production.
-- Established the foundational first-principles question bank and three-phase grilling protocol.
-- Finalized the QDD learning cycle, AI-native engineering principles, 90-day first execution block, daily practice structure, career capability targets, and mastery scale.
+- Studied the introductory transcript explaining Story & Philosophy → Implementation → Production.
+- Extracted seven intended benefits of first-principles learning: unfamiliar-codebase navigation, faster onboarding, faster project development, reduced syntax fatigue, tool selection by requirements, employability through adaptability, and engineering intuition.
+- Converted those benefits into explicit practice behaviors and a transfer test in [LEARNING-PLAN.md](LEARNING-PLAN.md#why-first-principles-learning-compounds).
+- Established a dated daily-log requirement: record source, understanding, questions, hands-on evidence, transferable principle, gaps, mastery, and next action.
 - No implementation or production project has been completed yet.
 
-Session record: [2026-11-08 — Three-phase learning approach](sessions/2026-11-08-three-phase-learning-approach.md)
+Session record: [2026-11-08 — First-principles learning and transferable craft](sessions/2026-11-08-transferable-craft.md)
 
 ## Current gaps
 
@@ -48,3 +49,4 @@ Answer Lesson 1, Question 1 in your own words. The next question should depend o
 - Record evidence and unresolved questions.
 - Update mastery only after passing the relevant challenge.
 - Keep one clear next action.
+- Create a dated learning log for every learning day and use an intent-revealing commit message.
