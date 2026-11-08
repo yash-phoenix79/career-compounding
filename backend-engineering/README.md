@@ -33,18 +33,23 @@ One video or one coherent concept per learning day:
 4. Be grilled: explain it without notes, reason through counterexamples, and diagnose failure scenarios.
 5. Implement or run a focused experiment.
 6. Extend the concept into production: failure handling, observability, security, scale, and trade-offs.
-7. Record evidence, unresolved questions, and the next step.
+7. Record evidence, the transferable principle, unresolved questions, and one next step in a dated [daily learning log](templates/DAILY-LEARNING-LOG.md).
+8. Update [PROGRESS.md](PROGRESS.md) and commit the record with an intent-revealing message.
 
 A session can span multiple days when the concept is substantial. One-video-per-day is a cadence, not a reason to rush.
+
+## Why this compounds
+
+First-principles understanding is intended to transfer beyond one stack. We explicitly practice seven benefits: navigating unfamiliar codebases, onboarding faster, building projects from requirements, reducing syntax fatigue, choosing tools based on constraints, becoming adaptable across teams, and developing engineering intuition. The [learning plan](LEARNING-PLAN.md#why-first-principles-learning-compounds) defines how each benefit is turned into observable practice and a transfer test.
 
 ## Repository map
 
 - [CURRICULUM.md](CURRICULUM.md) — source map and topic progression.
 - [METHODOLOGY.md](METHODOLOGY.md) — the foundational question bank, grilling protocol, and mastery standard.
-- [LEARNING-PLAN.md](LEARNING-PLAN.md) — the locked QDD operating agreement, 90-day plan, daily practice, AI principles, and career capability targets.
+- [LEARNING-PLAN.md](LEARNING-PLAN.md) — the QDD operating agreement, transfer benefits, 90-day plan, daily practice, AI principles, and career capability targets.
 - [PROGRESS.md](PROGRESS.md) — current state and next action.
 - [templates/CONCEPT-NOTE.md](templates/CONCEPT-NOTE.md) — durable concept notes.
-- [templates/DAILY-LEARNING-LOG.md](templates/DAILY-LEARNING-LOG.md) — daily session record.
+- [templates/DAILY-LEARNING-LOG.md](templates/DAILY-LEARNING-LOG.md) — required daily session record.
 - [sessions/](sessions/) — dated session notes and learning evidence.
 - [implementations/](implementations/) — small experiments and runnable implementations.
 - [projects/](projects/) — integrated production-style projects.
@@ -62,4 +67,4 @@ A session can span multiple days when the concept is substantial. One-video-per-
 
 ## Current starting point
 
-We have established the three-phase learning philosophy from the introductory video transcript. The first substantive lesson is not yet recorded as completed. See [PROGRESS.md](PROGRESS.md).
+We have established the three-phase learning philosophy and the transferable benefits of first-principles learning from the introductory video transcript. The first substantive lesson is not yet completed. See [PROGRESS.md](PROGRESS.md).
