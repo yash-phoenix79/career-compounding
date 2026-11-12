@@ -1,458 +1,330 @@
 # CareerOS Work OS
 
-> A practical operating system for reliable engineering delivery, clear communication, continuous learning, and professional growth. The goal is not to become better at managing tasks. The goal is to become an engineer people can trust with increasingly ambiguous and consequential work.
+> Reliable engineering delivery through clear priorities, evidence-based execution, early communication, and honest review. The objective is to become an engineer people can trust with increasingly ambiguous and consequential work.
 
-## 1. Operating contract
+## 1. The operating contract
 
-### North star
+**North star:** deliver the right outcome predictably, with sound engineering judgment, visible ownership, and sustainable execution.
 
-Deliver the right outcomes predictably, with sound engineering judgment, visible ownership, and low avoidable coordination cost.
+Practice these principles:
 
-### Principles
+1. **Responsibility over avoidance.** Face the current state and take the next responsible action.
+2. **Facts over stories.** Separate what happened from what you fear people may think.
+3. **Progress over perfection.** Make the next useful slice real; improve it with evidence.
+4. **Clarity over overwhelm.** Convert a large task into one observable milestone and one next action.
+5. **Visibility over silence.** Surface blockers and delivery risk while there are still options.
+6. **Curiosity over insecurity.** Investigate, test, and ask precise questions instead of pretending to know.
+7. **Priorities over busyness.** Make capacity and trade-offs explicit.
+8. **Consistency over intensity.** Keep small commitments and recover quickly after a poor day.
+9. **Recovery over self-punishment.** Sustainable attention is part of engineering performance.
+10. **Feedback over identity.** Own your conduct; use feedback as information, not as a verdict on your worth.
 
-1. **Own outcomes, not appearances.** Surface reality early. Never hide a risk to protect your image.
-2. **Make commitments explicit.** A task is not understood until its outcome, definition of done, owner, and expected timing are clear.
-3. **Turn ambiguity into investigation.** Unknowns are work. Form hypotheses, inspect evidence, run experiments, and ask precise questions.
-4. **Communicate before being chased.** Stakeholders should not have to discover that a commitment is at risk.
-5. **Prefer evidence over confidence.** Estimates, status, quality, and learning claims should be grounded in observable facts.
-6. **Finish the highest-value slice.** One validated outcome beats many half-started tasks.
-7. **Protect sustainable execution.** Sleep, recovery, focus, and realistic capacity are part of engineering performance.
-8. **Improve the system, not your self-criticism.** When something slips, identify the process failure and change one behavior.
+### Boundaries that keep this lean
 
-### Boundaries
+- The team's tracker, tickets, project docs, and pull requests remain the source of truth for commitments and status.
+- CareerOS is the playbook and personal learning layer, **not a second task tracker**. Link to team records; do not copy them.
+- Keep one short daily work note in a notes tool you already use. Do not create a new app, dashboard, or one-file-per-day ritual.
+- Record decisions only when they have lasting consequences. Record learning only when it is reusable. Put project-specific truth beside the project.
+- Work delivery takes priority over optional study during work hours. Learning should reinforce real work, not become a way to avoid it.
+- Do not silently accept more work than capacity allows. Negotiate scope, sequence, or timing.
 
-- Team tools such as Jira, team docs, dashboards, and code review remain the source of truth for team commitments. CareerOS is your personal operating layer; link to canonical records rather than duplicating them.
-- Do not create a second task tracker. Keep only a lightweight daily log and durable decision/learning notes where they add value.
-- Work delivery takes priority over optional study during work hours. Learning should reinforce real work, not become a sophisticated form of avoidance.
-- Keep no more than two major personal focus areas and three active execution projects across your broader system.
+## 2. Minimum viable operating loop
 
-## 2. The operating loop
-
-**Plan → Understand → Execute → Communicate → Record → Review**
-
-Every work item moves through this loop. Scale the amount of ceremony to the risk and size of the work.
-
-### A. Intake: make the task executable
-
-For each meaningful deliverable, establish:
-
-| Question | What good looks like |
-|---|---|
-| Outcome | What user, business, or operational result must change? |
-| Why | Why does it matter now? |
-| Definition of done | Acceptance criteria, tests, review, rollout, and documentation expected |
-| Timing | Deadline or milestone; clarify whether it is fixed or negotiable |
-| Ownership | Directly responsible owner and decision-maker |
-| Dependencies | Teams, people, systems, approvals, or data needed |
-| Unknowns and risks | What could change scope, quality, or timing? |
-| First action | The next observable action, not a vague intention |
-
-Do not ask every question mechanically. Identify what is missing and clarify only what could change the plan or outcome.
-
-### B. Prioritization and capacity
-
-At the start of the day, compare work by:
-- Customer/business impact and urgency.
-- Deadline and cost of delay.
-- Risk reduction or unblocking value.
-- Dependency criticality.
-- Effort, uncertainty, and available capacity.
-
-Then choose:
-1. **One primary deliverable** that must move meaningfully today.
-2. Up to two secondary items only if capacity allows.
-3. Explicitly parked work.
-
-When new work arrives, do not silently absorb it. State the trade-off: "I can take this on. Given the current commitments, should I move A, move B, or reduce the scope of this request?"
-
-A realistic plan is better than an impressive list that cannot be completed.
-
-### C. Engineering execution
-
-Use this delivery sequence:
-
-1. **Understand:** read the requirements, relevant architecture, code paths, tests, logs, metrics, and prior decisions. Separate facts from assumptions.
-2. **Investigate:** reproduce the issue or trace the flow. Form a hypothesis, inspect evidence, run the smallest useful experiment, and record what it proves.
-3. **Design:** define boundaries, data/control flow, alternatives, trade-offs, failure modes, and acceptance criteria. Seek review early for consequential or uncertain decisions.
-4. **Implement incrementally:** prefer a small coherent change or vertical slice. Keep changes reviewable.
-5. **Validate:** run relevant unit/integration tests, edge cases, failure-path checks, static checks, and targeted manual verification. Compare results with acceptance criteria.
-6. **Deliver:** summarize the outcome, tests, operational/rollout considerations, remaining risks, and follow-ups. Update canonical team records.
-
-For every investigation, be able to answer:
-- What do I know?
-- What am I assuming?
-- What did I inspect or try?
-- What did the evidence show?
-- What remains unknown?
-- What is the next experiment or question?
-
-### D. Milestones, estimates, and deadlines
-
-Track three things for significant work:
-- **Original commitment:** what was communicated and when.
-- **Current forecast:** best evidence-based estimate and confidence.
-- **Risk:** what could invalidate the forecast, who owns it, and when it will be revisited.
-
-Break large tasks into milestones with observable outputs. Re-estimate when new evidence changes scope, complexity, or dependencies. Do not manage deadlines by hope.
-
-When a milestone is at risk, communicate while there is still time to make a decision. Use this format:
-
-> **Status:** what is complete and what remains.  
-> **Risk:** what changed or is blocking progress.  
-> **Impact:** likely effect on scope, quality, or date.  
-> **Forecast:** realistic next milestone/date and confidence.  
-> **Plan:** what you are doing to recover or reduce risk.  
-> **Decision needed:** scope, priority, dependency, or timeline alignment.
-
-If the miss is already likely, say so plainly. A late surprise is worse than an early uncomfortable update.
-
-### E. Blocker and dependency management
-
-For each meaningful blocker, record:
-- What is blocked and why.
-- What you have already tried and the evidence.
-- Dependency owner and the exact request.
-- Date requested and next follow-up.
-- Impact if unresolved and the escalation point.
-
-Do not wait indefinitely. Continue independent work where possible, follow up at an agreed time, and escalate based on impact rather than frustration.
-
-## 3. Communication OS
-
-### Manager relationship
-
-Your manager needs predictable outcomes, early visibility, sound judgment, and clear asks. A manager is a stakeholder and partner, not an adversary or a mind-reader.
-
-Clarify expectations over time:
-- What outcomes matter most this quarter?
-- What does good execution look like at your level?
-- What engineering quality and review standards are expected?
-- What update cadence is useful?
-- When and how should risks be escalated?
-- Which behaviors distinguish the next level of ownership?
-
-Use 1:1s to discuss:
-1. Outcomes delivered and their impact.
-2. Upcoming milestones and priorities.
-3. Risks, blockers, and decisions needed.
-4. Feedback on one concrete behavior.
-5. What to improve or take ownership of next.
-
-Do not turn every 1:1 into a status recital. Share status asynchronously where appropriate; use live time for decisions, feedback, and alignment.
-
-### Peer and cross-team collaboration
-
-A strong help request is concise and shows your work:
-
-> **Problem:** the behavior or decision I am trying to resolve.  
-> **Context:** relevant system/component and expected behavior.  
-> **What I checked:** code, logs, metrics, docs, tests, or experiments.  
-> **Evidence:** what I observed.  
-> **Specific question:** the uncertainty I need help resolving.  
-> **Impact/timing:** why the answer matters and by when.
-
-Working agreements:
-- Ask early enough that others can help.
-- Respect the other person's time; provide enough context to avoid repeated back-and-forth.
-- Confirm ownership, expected response, and follow-up for dependencies.
-- Share useful discoveries and give credit.
-- Disagree with evidence and trade-offs, not status or ego.
-- Close the loop when someone helps.
-
-### Communication cadence
-
-- **Start of day:** align your own priorities and identify who needs an update.
-- **During execution:** communicate meaningful progress, decisions, and new risks when they affect others.
-- **When blocked or at risk:** communicate early using facts, impact, plan, and a clear ask.
-- **End of day:** update the team tracker or stakeholders when the agreed cadence or a material change warrants it. Do not send noise merely to appear active.
-
-## 4. Personal records and documentation
-
-Use team systems for official work state. CareerOS should hold only the personal records that improve recall and judgment.
-
-### Daily work log
-
-Create one short entry per workday:
-
-- Date:
-- Primary deliverable:
-- Progress/evidence:
-- Next milestone and next action:
-- Blockers/risks and owner:
-- Decisions or communication sent:
-- One lesson or behavior to improve:
-
-Record meaningful events, not every activity. A useful log should take about five minutes.
-
-### Decision log
-
-Capture consequential decisions only:
-- Context and problem.
-- Options considered.
-- Decision and rationale.
-- Trade-offs and risks accepted.
-- Revisit trigger, if any.
-
-### Learning log
-
-Capture reusable lessons from real work:
-- Concept or system learned.
-- Explanation in your own words.
-- Evidence: code path, experiment, test, metric, or review feedback.
-- What is still unclear.
-- Where the concept applies next.
-
-Do not copy whole tickets or documents into CareerOS. Link to the canonical source.
-
-## 5. Learning and engineering growth
-
-The aim is transferable capability and increasing ownership, not completion of a reading list.
-
-### Learning loop
-
-**Understand → Explain → Implement → Test → Review**
-
-For a technical concept:
-1. State the problem it solves.
-2. Explain the basic mental model in plain language.
-3. Trace the mechanism step by step.
-4. Explain why it works and what alternatives exist.
-5. Identify trade-offs, limits, and failure cases.
-6. Reconstruct the idea from memory; draw the flow or write pseudocode.
-7. Implement a small example or run an experiment.
-8. Test it and explain what the evidence proves.
-
-Use this note structure:
-- Problem
-- Core idea
-- How it works
-- Why it works
-- Trade-offs and alternatives
-- Failure cases
-- Practical application
-- Evidence that I understand it
-
-Keep learning subordinate to reliable delivery. Use the existing backend-first-principles and LLD learning tracks; do not create a parallel curriculum. Protect a bounded learning block when work commitments are under control.
-
-## 6. Emotional OS: execute without waiting to feel ready
-
-This section is a practice protocol, not a diagnosis or a claim that anxiety can be switched off on command.
-
-### Common avoidance loop
-
-A possible pattern is:
-
-**Too many expectations or ambiguity → fear of judgment / self-criticism → anxiety and overload → avoidance → delay and guilt → lower self-trust → more avoidance.**
-
-Treat this as a hypothesis to test against actual situations. Do not label yourself lazy or incompetent based on a difficult workday.
-
-### Reframes to practice
-
-| Old response | More useful response |
-|---|---|
-| "I must know everything before starting." | "I need enough understanding to run the next useful investigation." |
-| "If I ask, people will think I am weak." | "A precise, evidence-backed question reduces team risk." |
-| "I am already late, so I should hide until I have progress." | "Early visibility gives people options." |
-| "I need to finish everything today." | "I need to choose the most important realistic commitment." |
-| "A mistake proves I am not good enough." | "A mistake is evidence about the system, assumption, or skill to improve." |
-| "I need motivation first." | "I can start with five minutes and let action create momentum." |
-| "My manager's reaction defines my worth." | "I own my conduct and delivery; I can learn from feedback without outsourcing my self-worth." |
-| "I should keep working even when exhausted." | "Recovery is part of sustainable performance; distinguish fatigue from avoidance." |
-
-### Facts versus stories
-
-When anxiety spikes, write:
-- **Fact:** what is directly observable?
-- **Story:** what am I predicting or assuming?
-- **Evidence:** what supports or contradicts that prediction?
-- **Balanced view:** what is the most accurate interpretation?
-- **Action:** what is the smallest responsible next step?
-
-Example:
-- Fact: the milestone is behind the original estimate.
-- Story: my career is ruined and everyone thinks I am incompetent.
-- Balanced view: the schedule is at risk; I need to establish remaining work, forecast, and options.
-- Action: spend ten minutes identifying the critical path, then send an honest update.
-
-### Regulation and action
-
-- Use a brief calming technique you already find helpful, such as the physiological sigh, if comfortable. It is a regulation aid, not a substitute for addressing the work problem or getting medical help for concerning physical symptoms.
-- If genuinely exhausted, take a restorative break; a short nap can help alertness. Do not use naps or breathing exercises to avoid a necessary conversation or first action.
-- Use the five-minute start: open the relevant code/doc, state the question, and investigate for five minutes.
-- Reduce the task to the next visible action. Do not attempt to solve the entire project in your head.
-- If anxiety or avoidance is frequent and materially impairing, consider professional support rather than treating a productivity system as treatment.
-
-## 7. Internalising principles through behavior
-
-Reading principles is not rewiring. Repeated action in real situations, followed by honest review, is what builds a more reliable response.
-
-Use this loop:
-
-**Principle → Situation → Action → Evidence → Adjustment**
-
-Example:
-- Principle: communicate risk early.
-- Situation: upstream dependency is delayed.
-- Action: send a factual update with impact, plan, and a clear ask.
-- Evidence: stakeholder knew before the deadline and could reprioritize.
-- Adjustment: agree on a follow-up checkpoint next time.
-
-### If–then plans
-
-- If I feel overwhelmed, then I list commitments and choose one next action.
-- If I fear judgment, then I separate facts from predictions and begin a small investigation.
-- If I am blocked, then I record what I tried and ask one precise question.
-- If a commitment is at risk, then I communicate the forecast and options early.
-- If new work arrives, then I make the priority trade-off explicit.
-- If I catch myself passively reading, then I explain the concept from memory or test it.
-- If I am genuinely depleted, then I recover and reset the next work block.
-
-### Short daily retrieval practice
-
-- **Morning (2 minutes):** recall three principles without reading.
-- **During work:** deliberately apply one principle in a real situation.
-- **Evening (3 minutes):** record one example where you acted well and one adjustment for tomorrow.
-- **Weekly:** review repeated patterns and select one behavior to practice next week.
-
-Do not attempt to internalise every principle at once. Practice one or two behaviors until they become more reliable, then add another.
-
-## 8. Daily and weekly operating rhythm
+Use this loop every workday. The time boxes are ceilings, not extra meetings.
 
 ### Start of day — 10 minutes
 
-- Review official commitments and deadlines.
-- Choose one primary deliverable.
-- Define today's observable milestone and first action.
-- Check dependencies and risks.
-- Identify any stakeholder who needs an update.
+1. Open the team's actual source of truth. Review commitments, deadlines, dependencies, and new requests.
+2. Choose **one primary deliverable** that must move meaningfully today. Add at most two secondary items only if capacity is real.
+3. Define the day's milestone as an observable output, not an activity such as "work on API."
+4. Write the first physical action you can take in under ten minutes.
+5. Identify the risk, dependency, or person who needs an update.
+
+### During execution
+
+- Start before you feel fully ready. Work on the first action for ten minutes.
+- Keep a visible distinction between facts, assumptions, and unknowns.
+- Work in focused blocks. At the end of a block, record the evidence gained and the next action.
+- If blocked, write what you tried, what the evidence showed, and the exact help needed. Ask early enough for the answer to matter.
+- If new work arrives, expose the trade-off instead of silently reshuffling every commitment.
 
 ### Midday — 5 minutes
 
-- Are priorities still correct?
-- Is the work progressing against the milestone?
-- Did new work or evidence change the plan?
-- Is a blocker or risk now visible to the right person?
+Ask: Is the primary milestone still the right priority? What does the evidence say about progress? Has scope, timing, or risk changed? Who needs to know?
+
+Change the plan when facts change. Do not defend a forecast that the evidence no longer supports.
 
 ### End of day — 10 minutes
 
-- Record actual progress and evidence.
-- Update official task state where needed.
-- Communicate material changes.
-- Record blocker owner and follow-up.
-- Write tomorrow's first action.
-- Close the workday rather than carrying an unstructured list in your head.
+1. Update the official team tracker.
+2. Record what actually changed, with evidence.
+3. Record any risk, owner, request, and follow-up time.
+4. Send a stakeholder update if a commitment, decision, or dependency materially changed.
+5. Write tomorrow's first action. Then close the workday.
 
-### Weekly review — 20–30 minutes
+## 3. Task intake and prioritisation
 
-Review evidence, not feelings alone:
+For each meaningful request, establish only what is needed to make a good decision:
 
-1. **Delivery:** what shipped or reached a meaningful milestone?
-2. **Quality:** what defects, rework, or missed edge cases occurred?
-3. **Ownership:** where did I resolve ambiguity or drive a decision?
-4. **Communication:** did I provide visibility before being asked?
-5. **Collaboration:** where did I unblock others or use help effectively?
-6. **Judgment:** which estimate or assumption was wrong, and why?
-7. **Growth:** what capability did real work strengthen?
-8. **Pattern:** what repeated friction should I remove?
-9. **Next week:** what are the top outcomes and explicit trade-offs?
+| Field | Clarify |
+|---|---|
+| Outcome | What user, business, or operational result should change? |
+| Done | What observable acceptance criteria, tests, review, or rollout are required? |
+| Timing | What is the target date? Is it fixed, externally committed, or negotiable? |
+| Ownership | Who is directly responsible and who makes the key decision? |
+| Dependencies | Which people, teams, systems, approvals, or data are needed? |
+| Uncertainty | What could materially change scope, quality, or timing? |
+| First action | What is the next observable step? |
 
-Choose one improvement behavior for the coming week. Do not turn the review into a self-criticism session.
+Do not interrogate every requester with a checklist. Clarify the missing detail only if it could change the plan or outcome.
 
-## 9. First-week rollout
+Prioritise using:
 
-Do not implement the entire system in one night. Start with the smallest version and add only what proves useful.
+- Customer/business impact and cost of delay.
+- Fixed commitments and operational risk.
+- Work that unblocks other people or critical dependencies.
+- Risk reduction and reversibility.
+- Effort, uncertainty, and actual available capacity.
 
-**Day 1**
-- Identify the official source of truth for current tasks and deadlines.
-- List active commitments, their definitions of done, and current forecasts.
-- Select one primary deliverable and define its next milestone.
-- Start the five-minute daily log.
+When priorities compete, make the trade-off explicit:
 
-**Day 2**
-- Clarify one ambiguous requirement or acceptance criterion.
-- Break the primary deliverable into observable milestones.
-- Identify dependencies and owners.
+> I can take this on. Given the current commitments to A and B, should I move A, move B, or reduce the scope of this request?
 
-**Day 3**
-- Use the investigation protocol on one unknown.
-- Ask one precise question early if needed.
-- Record the evidence and next experiment.
+A realistic commitment is more valuable than an impressive list that cannot be delivered.
 
-**Day 4**
-- Review estimates and risks.
-- Send an early update if a commitment is at risk.
-- Make one priority trade-off explicit instead of silently absorbing work.
+## 4. Milestones, estimates, and deadlines
 
-**Day 5**
-- Ask your manager or a trusted peer for feedback on one concrete execution behavior.
-- Complete the first weekly review.
-- Keep, simplify, or discard parts of this system based on actual usefulness.
+For significant work, keep three truths visible:
 
-## 10. Templates
+- **Original commitment:** what was agreed and when.
+- **Current forecast:** the best estimate based on evidence, with confidence (high, medium, or low).
+- **Risk:** what could invalidate the forecast, who owns it, and when it will be checked again.
+
+Break large work into milestones with concrete outputs. Depending on the task, useful milestones may be: requirements clarified, critical unknown investigated, design reviewed, first vertical slice implemented, validation complete, rollout/handoff complete.
+
+Do not report progress as a percentage unless it is genuinely measurable. "80% done" hides the remaining risk. Prefer "the happy path works; retry handling and integration tests remain."
+
+Re-estimate when new evidence changes scope, complexity, or dependencies. Do not manage a deadline by hope.
 
 ### At-risk update
 
-```text
-Status:
-Completed:
-Remaining:
-Risk / cause:
-Impact:
-Current forecast and confidence:
-Recovery / mitigation plan:
-Decision or help needed:
-Next update:
-```
+Send this as soon as a commitment is plausibly at risk, not after it has already slipped:
+
+- **Status:** completed and remaining work.
+- **Risk/cause:** what changed and what evidence supports it.
+- **Impact:** likely effect on scope, quality, or date.
+- **Forecast:** realistic next milestone/date and confidence.
+- **Plan:** mitigation or recovery action.
+- **Decision needed:** priority, scope, dependency, or timeline alignment.
+- **Next checkpoint:** when you will update again.
+
+If the miss is already likely, say so plainly. Early discomfort gives the team options; a late surprise removes them.
+
+## 5. Technical investigation and execution
+
+Use the shared [Project Engineering Workflow](PROJECT_ENGINEERING_WORKFLOW.md) for the deeper Understand → Design → Document → Implement → Validate → Handoff method. Do not maintain a second engineering checklist here. For normal work, apply this compact loop:
+
+1. **Frame the question.** What behavior, requirement, or decision are you trying to understand?
+2. **Inspect reality.** Read the relevant code path, tests, logs, metrics, docs, and prior decisions. Reproduce the behavior when possible.
+3. **Separate facts from assumptions.** Write down what is known, inferred, and still unknown.
+4. **Test a hypothesis.** Run the smallest experiment that can reduce uncertainty. Record what the result proves and what it does not prove.
+5. **Choose the next step.** Investigate further, implement a small slice, ask for review, or escalate a dependency.
+6. **Validate and hand off.** Check acceptance criteria, relevant tests, edge/failure paths, and operational implications. State what was verified and what remains unverified.
+
+For a consequential design, make boundaries, data/control flow, alternatives, trade-offs, and failure modes explicit; seek review before expensive implementation. For a small, reversible change, do not create a design document just to satisfy ceremony.
+
+When stuck, answer these questions before asking for help:
+
+- What did I expect, and what happened instead?
+- What code, tests, logs, metrics, or docs did I inspect?
+- What did I try, and what did it prove?
+- What is the precise uncertainty?
+- What is the smallest next experiment or question?
+
+## 6. Communication and collaboration
+
+### Manager
+
+Treat your manager as a stakeholder and partner to align with, not an adversary or a mind-reader. Build shared expectations over time:
+
+- Which outcomes matter most now?
+- What does good execution look like at my level?
+- What quality, testing, review, and documentation standards are expected?
+- What update cadence is useful?
+- When and how should risks be escalated?
+- What would demonstrate stronger ownership at the next level?
+
+Use 1:1 time for outcomes and impact, upcoming priorities, risks and decisions, feedback on one concrete behavior, and the next area of ownership. Share routine status asynchronously when appropriate; do not turn every 1:1 into a status recital.
+
+### Peers and partner teams
+
+A useful help request contains enough context to make the answer easy:
+
+- **Problem:** the behavior or decision to resolve.
+- **Expected vs actual:** what should happen and what you observed.
+- **What I checked:** relevant code, logs, metrics, docs, tests, or experiments.
+- **Evidence:** the result so far.
+- **Specific question:** the uncertainty you need help resolving.
+- **Timing/impact:** when the answer matters.
+
+Ask before you are deeply stuck. Confirm ownership and follow-up for dependencies. Share discoveries, give credit, disagree with evidence and trade-offs, and close the loop when someone helps.
+
+## 7. Personal records: minimum useful documentation
+
+Team systems hold official work state. Personal notes should reduce cognitive load and preserve reusable judgment, not recreate the team's records.
+
+### Daily work note — about 5 minutes
+
+Keep one short entry in an existing notes tool:
+
+- Date and link to the primary team task.
+- Primary deliverable and today's milestone.
+- Progress/evidence: what changed or was verified?
+- Next action.
+- Risk/blocker, owner, and follow-up.
+- One decision, useful lesson, or behavior to improve.
+
+Do not log every meeting or keystroke. A useful log lets you resume work without reconstructing the day.
+
+### Decision record — only for consequential decisions
+
+Capture context, options considered, decision and rationale, trade-offs/risks accepted, and a trigger for revisiting. Put it near the relevant project or design doc.
+
+### Learning record — only for reusable learning
+
+Capture the concept, your explanation in plain language, evidence from code/experiment/test/review, what remains unclear, and where it applies next. Do not copy whole tickets or documents.
+
+For technical learning, use **Understand → Explain → Implement → Test → Review**. Reconstruct the mechanism from memory, identify trade-offs and failure cases, then prove understanding with code or an experiment. Continue using the existing backend-first-principles and LLD tracks; do not create a parallel curriculum.
+
+## 8. Emotional regulation: act without waiting to feel ready
+
+This is a work-practice protocol, not a diagnosis. The aim is not to eliminate discomfort before acting. The aim is to stop discomfort from silently choosing your behavior.
+
+### Common traps and better responses
+
+| Automatic response | Deliberate response |
+|---|---|
+| "I must understand everything before I start." | "I need enough clarity to run the next useful investigation." |
+| "If I ask, they will think I am weak." | "A precise, evidence-backed question reduces delivery risk." |
+| "I am late, so I should stay quiet until I recover." | "Early visibility gives people options." |
+| "I need to finish everything today." | "I need one realistic, high-value commitment." |
+| "A mistake proves I am not capable." | "A mistake is evidence about an assumption, process, or skill to improve." |
+| "I need motivation first." | "I can begin with ten minutes; action can create momentum." |
+| "My manager's reaction defines my worth." | "I own my conduct and can learn from feedback without outsourcing my self-respect." |
+| "I should push through any level of exhaustion." | "Recovery protects sustained performance; distinguish fatigue from avoidance." |
+
+### The 5-step reset when you notice avoidance
+
+1. **Name it:** "I am avoiding this because it feels ambiguous / difficult / exposing."
+2. **Separate fact from story:** what is observable, and what am I predicting?
+3. **Choose responsibility:** what is the next action that reduces uncertainty or delivery risk?
+4. **Start for ten minutes:** open the code/doc, reproduce the issue, write the question, or create the smallest test.
+5. **Make reality visible:** if the work or commitment is at risk, communicate it with facts and a plan.
+
+Use a brief calming technique or restorative break if it helps you regulate. Do not use it to postpone the first action or a necessary conversation. If anxiety or avoidance is frequent and materially impairing, professional support may be useful; a productivity system is not treatment.
+
+## 9. Daily and weekly review
+
+### Daily close — 3 questions
+
+- What moved, and what evidence proves it?
+- What is at risk or still unknown, and who needs to know?
+- What is the first action tomorrow?
+
+### Weekly review — 20 minutes
+
+Review evidence, not just how the week felt:
+
+1. What meaningful outcomes shipped or reached a milestone?
+2. Where did quality, testing, or rework expose a gap?
+3. Where did I resolve ambiguity or take ownership?
+4. Did stakeholders hear about risks before they became surprises?
+5. Which dependency or collaboration could I have handled better?
+6. Which estimate or assumption was wrong, and what did I learn?
+7. What repeated friction should I remove?
+8. What are next week's top outcomes, and what will be explicitly parked?
+
+Choose **one behavior** to practice the following week. Do not turn the review into a self-criticism session.
+
+## 10. Five-day internalisation practice
+
+The goal is behavioral evidence, not memorising slogans. Practice one deliberate action each day; repeat the cycle next week on harder situations.
+
+| Day | Principle | Real work rep |
+|---|---|---|
+| 1 | Clarity over overwhelm | Take one vague deliverable and define its outcome, done criteria, milestone, and first action. |
+| 2 | Curiosity over insecurity | Investigate one unknown, then ask one precise question with evidence instead of silently guessing. |
+| 3 | Visibility over silence | Send an honest progress or risk update before someone has to ask. |
+| 4 | Priorities over busyness | When work competes, make the scope/sequence/deadline trade-off explicit with the stakeholder. |
+| 5 | Feedback over identity | Ask for feedback on one concrete behavior, extract one change, and review the week without self-attack. |
+
+At the end of each day, record one line: **Situation → old impulse → action I chose → evidence/result → next adjustment.**
+
+Use these if–then rules when the familiar pattern appears:
+
+- If I feel overwhelmed, then I list current commitments and choose one next action.
+- If I fear judgment, then I separate facts from predictions and start a small investigation.
+- If I am blocked, then I state what I tried and ask a specific question.
+- If a commitment is at risk, then I share the forecast, impact, plan, and decision needed.
+- If new work arrives, then I expose the priority trade-off.
+- If I am genuinely depleted, then I recover and define when I will resume.
+
+## 11. Copy-ready templates
+
+### Daily execution card
+
+- **Primary outcome / team-task link:**
+- **Definition of done:**
+- **Today's milestone:**
+- **Current forecast / confidence:**
+- **First action (under 10 minutes):**
+- **Risk or dependency / owner:**
+- **Who needs an update:**
+
+At close: **evidence of progress | next action | risk and follow-up | one lesson**.
+
+### At-risk update
+
+- Status and completed work:
+- Remaining work:
+- Risk/cause and evidence:
+- Impact:
+- Current forecast and confidence:
+- Mitigation/recovery plan:
+- Decision or help needed:
+- Next update:
 
 ### Help request
 
-```text
-Problem:
-Expected vs actual behavior:
-What I inspected or tried:
-Evidence / observations:
-Specific question:
-Impact and when I need the answer:
-```
+- Problem and expected behavior:
+- Actual behavior / evidence:
+- What I inspected or tried:
+- Specific uncertainty / question:
+- Impact and when the answer is needed:
 
-### Daily log
+### Consequential decision
 
-```text
-Date:
-Primary deliverable:
-Progress / evidence:
-Next milestone / action:
-Blockers / risks / owner:
-Decisions or updates sent:
-Lesson / behavior to improve:
-```
+- Context:
+- Options:
+- Decision and rationale:
+- Trade-offs / risks accepted:
+- Revisit trigger:
 
 ### Weekly review
 
-```text
-Outcomes delivered:
-Quality / rework:
-Ownership demonstrated:
-Communication and collaboration:
-Estimate or assumption that was wrong:
-Capability strengthened:
-Repeated friction:
-One behavior to practice next week:
-Top outcomes next week:
-Trade-offs / parked work:
-```
+- Outcomes delivered:
+- Quality / rework:
+- Ownership and collaboration:
+- Communication / risks surfaced:
+- Wrong estimate or assumption:
+- Reusable lesson:
+- One behavior to practice next week:
+- Next week's top outcomes / explicit trade-offs:
 
 ---
 
 ## Definition of a working Work OS
 
-This system is working when:
-- You can state your top commitment and next action without reconstructing the day.
-- Stakeholders know when commitments are at risk before the deadline.
-- Blockers have owners, requests, and follow-up points.
-- Technical conclusions are supported by evidence and tests.
-- Work records are brief and useful, not duplicated bureaucracy.
-- You can recover from a missed commitment with facts and a plan rather than avoidance.
-- Weekly reviews lead to one observable behavior change.
+It is working when you can state the top commitment and next action quickly; stakeholders hear about risk early; blockers have owners and follow-ups; technical conclusions have evidence; notes stay brief; and a missed commitment leads to a factual recovery plan rather than avoidance.
 
-**The standard:** be calm, make reality visible, do the next responsible thing, and leave evidence.
+**Operating standard:** face reality, make the next responsible move, communicate early, and leave evidence.
