@@ -9,5 +9,6 @@ Career planning dashboard. Site setup in progress.
 - [Software factory & tool notes](resources/SOFTWARE_FACTORY_AND_TOOLS.md) — researched tool notes and a weekend workflow for turning ideas into demos.
 - [Backend Engineering from First Principles](backend-engineering/README.md) — a structured, three-phase learning program covering foundations, implementation, production projects, daily practice, and evidence-based mastery.
 - [Project engineering workflow](resources/PROJECT_ENGINEERING_WORKFLOW.md) — shared Understand → Design → Document → Implement → Validate → Handoff method, free/open-source tool policy, and project-specific next steps.
+- [CareerOS Work OS](resources/WORK_OS.md) — practical system for task intake, prioritization, engineering delivery, deadlines, risk escalation, manager/peer communication, work logs, learning, emotional regulation, and daily/weekly reviews.
 - [Inbox](inbox/README.md) — quickly capture ideas, questions, tasks, and anything to process later.
 - [Side projects](side_projects/README.md) — scoped experiments, research, and build decisions.
