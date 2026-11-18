@@ -94,3 +94,18 @@ Copy one entry per day when logging actual work. Keep it factual; omit proprieta
 - **Next executable action:**
 
 A day can count as a learning day without shipping a feature, but passive consumption alone is not strong evidence. Every week should leave at least one reviewable implementation, test, or design artifact from the active project.
+
+## Planned BUILD lesson — 2026-11-19 (not yet attempted)
+
+- **Lesson ID:** AI-TOOL-EXECUTION-BOUNDARY-2026-11-19
+- **Date:** 2026-11-19
+- **Subject/domain:** AI engineering + backend architecture
+- **Topic/prerequisite:** Tool-calling control loop and the trusted application-side execution boundary. Prerequisite: understand that a model can return a structured tool-call request; the application owns execution. The existing backend-first-principles question about why a mobile banking client should not connect directly to the database remains unanswered and is a useful retrieval test.
+- **Credible sources:** [OpenAI function-calling guide](https://developers.openai.com/api/docs/guides/function-calling); [MCP specification, 2026-07-28](https://github.com/modelcontextprotocol/modelcontextprotocol/blob/main/docs/specification/2026-07-28/index.mdx); [OpenAI Agents SDK repository](https://github.com/openai/openai-agents-python).
+- **Concepts presented:** The model proposes a named tool and arguments; the host validates tool availability, schema, authorization and policy; application code executes the operation; the result is returned to the model using the matching call identifier; the model then continues or finishes. Schema validity does not establish business correctness or authorization. Read and write tools have different risk; consequential writes need stricter controls and, where appropriate, human approval.
+- **Practical exercise planned:** In the existing active codebase, ask the primary coding agent to trace one complete tool-call path without editing files. Independently verify the dispatch/execution boundary and identify one missing test. Do not start a new project.
+- **Business connection:** Judge an AI workflow by the measurable customer problem and reliability of the resulting process, not by the presence of an agent. A useful discovery question is: “Tell me about the last time this repetitive task failed or was delayed; what happened and what did it cost?”
+- **Actual output/evidence:** No code, test, independent explanation, customer conversation, or implementation has been reported. Only the lesson and exercise were delivered as a plan in the morning reminder.
+- **Knowledge gaps:** User retrieval is not yet assessed; no current project/tool-call path has been inspected; authorization and idempotency behavior remain to be tested in an implementation.
+- **Next lesson:** Error handling, idempotency, bounded retries and approval gates in tool execution.
+- **Status:** planned; not attempted, retrieved, applied or verified.
