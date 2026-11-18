@@ -19,7 +19,7 @@ Update this file at the end of each session. Keep entries factual. Do not claim 
 - **Backend next action:** Continue the next concept; capture the concept, an example/experiment, and one trade-off or failure mode.
 - **AI next action:** Study one small concept and write a concise takeaway or connect it to a current project.
 - **Weekend project next action:** Choose the smallest useful change in the active project, implement it, test it, and commit it.
-- **Normal daily time:** Aim for 60 minutes total; cap planned learning at 90 minutes.
+- **Current BUILD routine:** 5:30–7:00 AM (90 minutes) per the user's latest approved schedule. Scale down for sleep debt, illness, recovery needs or urgent work; never create catch-up debt.
 - **Evidence expected:** Design/code/tests, a concept note or experiment, or a reviewable project contribution.
 
 ## Scoreboard
