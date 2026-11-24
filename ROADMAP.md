@@ -6,7 +6,7 @@
 
 ## Four non-negotiables
 
-### Every day
+### Daily craft
 1. **Backend from First Principles** — learn the next concept and connect it to a concrete example, experiment, or concise explanation.
 2. **LLD practice** — continue the active design exercise. The dedicated guided LLD programme is 30 minutes per session, six sessions per week, in Java; the seventh day is the formal LLD recovery day. Keep daily craft practice small and evidence-based.
 3. **AI knowledge** — learn one small AI-engineering concept from AI Engineering from Scratch or the reference shelf, and capture a practical takeaway. Keep this deliberately small on workdays; do not start a separate project just to satisfy it.
@@ -41,13 +41,13 @@ The active LLD exercise is **Vending Machine — LLD Challenge 001**:
 
 ## Focus order
 
-1. **Daily craft:** LLD + backend fundamentals + AI knowledge.
+1. **Daily craft:** backend fundamentals and AI knowledge daily; six formal LLD sessions per week.
 2. **SDE-2 readiness:** DSA, LLD/machine coding, HLD, project deep dives, behavioural stories, and communication. Keep DSA practice scheduled as a supporting interview workstream; do not silently drop it.
 3. **HLD and distributed systems:** capacity, caching, queues, consistency, reliability, observability.
 4. **AI engineering and agentic systems:** model APIs, structured outputs, tools, retrieval, evaluation, state, safety, tracing, cost and latency.
 5. **Products and public proof:** contribute to and finish real project slices, document decisions, ship demos, and share useful lessons.
 
-These are not all separate daily tracks. The three daily non-negotiables stay fixed; go deeper on one topic at a time.
+These are coordinated craft activities, not three full-length daily courses. Keep increments focused, preserve the six-session LLD cadence, and go deeper on one topic at a time.
 
 ## Engineering at work
 
@@ -70,7 +70,7 @@ Every weekend:
 
 ## Non-negotiable rules
 
-- Daily: backend fundamentals and AI knowledge; LLD practice continues daily in small increments, with six formal 30-minute sessions and one formal recovery day per week.
+- Daily: backend fundamentals and AI knowledge. LLD: six formal 30-minute sessions per week, with one formal recovery day and no catch-up debt.
 - Every weekend: a tangible project contribution.
 - No roadmap redesign every week.
 - No resource collecting instead of practice.
