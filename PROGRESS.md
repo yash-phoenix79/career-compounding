@@ -5,17 +5,20 @@ Update this file at the end of each session. Keep entries factual. Do not claim 
 ## Locked non-negotiables
 
 - **Daily 1:** Backend from First Principles — https://backend-from-first-principle.vercel.app/
-- **Daily 2:** LLD practice — current design exercise, currently library management.
+- **Daily 2:** LLD practice — active exercise: Vending Machine LLD Challenge 001. The structured programme is 30 minutes per session, six sessions per week, in Java; one formal recovery day.
 - **Daily 3:** AI knowledge — https://aiengineeringfromscratch.com/ or a relevant reference in `RESOURCE_LIBRARY.md`.
 - **Every weekend:** Make a tangible contribution to one active project: feature, bug fix, tests, reliability, documentation/design decision, or meaningful open-source contribution.
 - These are the fixed operating contract. Do not replace them with another roadmap or resource hunt.
 
 ## Current status
 
-- **Phase:** LLD foundations + backend fundamentals + daily AI knowledge
-- **LLD current task:** Write requirements and use cases for a library management system
-- **LLD status:** Not started until the artifact is committed
-- **LLD next action:** Create `exercises/library-management/requirements.md` with 5–8 core use cases, assumptions, and out-of-scope behavior.
+- **Phase:** LLD capability foundations + backend fundamentals + daily AI knowledge
+- **LLD programme:** Locked; starts 2026-11-25; 30 minutes × 6 sessions/week; Java; guided first-principles teaching.
+- **LLD estimate:** 8–10 weeks (24–30 focused hours), with a usable first Vending Machine submission targeted after approximately 7–10 sessions.
+- **LLD current task:** Day 1 — derive the vending machine problem statement, initial scope and unknowns, actors/use cases and domain candidates; create the first project artifact.
+- **LLD status:** Planned; not started. Do not record completion until evidence exists.
+- **LLD programme source:** `lld/LLD_CAPABILITY_PROGRAM.md`
+- **Active LLD challenge:** `exercises/vending-machine/README.md`
 - **Backend next action:** Continue the next concept; capture the concept, an example/experiment, and one trade-off or failure mode.
 - **AI next action:** Study one small concept and write a concise takeaway or connect it to a current project.
 - **Weekend project next action:** Choose the smallest useful change in the active project, implement it, test it, and commit it.
@@ -27,7 +30,7 @@ Update this file at the end of each session. Keep entries factual. Do not claim 
 | Metric | Current | Target |
 |---|---:|---:|
 | Daily backend sessions | 0 | 5 per week |
-| Daily LLD sessions | 0 | 5 per week |
+| Formal LLD sessions | 0 | 6 per week |
 | Daily AI knowledge sessions | 0 | 5 per week |
 | Weekend project contributions | 0 | 1 per week |
 | Implemented and tested slices | 0 | 1 per week |
@@ -40,7 +43,7 @@ Update numbers honestly. Do not infer historical completion; update only when ev
 
 | Date | Backend evidence | LLD evidence | AI knowledge evidence | Next action |
 |---|---|---|---|---|
-| YYYY-MM-DD | — | Start library-management requirements | — | Finish the smallest next artifact |
+| YYYY-MM-DD | — | — | — | Record the next executable action after the session |
 
 ## Weekend project contribution log
 
