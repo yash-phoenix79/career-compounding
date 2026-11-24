@@ -36,17 +36,19 @@ This is a reference library, not a consumption checklist. The locked operating c
 
 ## 3. LLD, OOP, design patterns, and machine coding
 
+- **Primary programme:** [LLD Engineering Capability Programme](lld/LLD_CAPABILITY_PROGRAM.md) — 8–10-week first-principles training, Java prerequisites, guided practice, mastery gates and independent transfer assessment.
+- **Active challenge:** [Vending Machine — LLD Challenge 001](exercises/vending-machine/README.md).
 - Refactoring.Guru: https://refactoring.guru/
 - Awesome Low Level Design: https://github.com/ashishps1/awesome-low-level-design
 - Java Design Patterns: https://github.com/iluwatar/java-design-patterns
 - Design Patterns roadmap: https://roadmap.sh/design-patterns
 - Java learning: https://dev.java/learn/
 
-**Topics:** requirements and use cases; object responsibilities; encapsulation; abstraction; inheritance versus composition; interfaces; SOLID; dependency inversion; design patterns and their costs; validation; error handling; testability; refactoring; concurrency where relevant.
+**Topics:** Java prerequisites; requirements and use cases; object responsibilities; encapsulation; abstraction; inheritance versus composition; interfaces; SOLID; dependency inversion; design patterns and their costs; UML; validation; error handling; testability; refactoring; concurrency and idempotency where relevant.
 
-**Practice systems:** library management; parking lot; Splitwise-style expense manager; movie ticket booking; elevator; notification service; rate limiter; task scheduler; cache; logging framework.
+**Practice systems after the first challenge:** library management; parking lot; Splitwise-style expense manager; movie ticket booking; elevator; notification service; rate limiter; task scheduler; cache; logging framework; and unfamiliar prompts with changing or incomplete requirements.
 
-**Exercise loop:** requirements → object model → interfaces → implementation → tests → critique → refactor. Implement in Java. Do not memorise class diagrams without writing working code.
+**Exercise loop:** understand → clarify requirements → model domain → assign responsibilities → define interactions → implement → test → critique → refactor → defend. Implement in Java. Do not memorise class diagrams without writing working code.
 
 ## 4. Backend, Java, APIs, and developer tools
 
