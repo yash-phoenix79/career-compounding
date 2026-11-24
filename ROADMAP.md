@@ -8,7 +8,7 @@
 
 ### Every day
 1. **Backend from First Principles** — learn the next concept and connect it to a concrete example, experiment, or concise explanation.
-2. **LLD practice** — move the current design exercise forward: requirements, object model, implementation, tests, or trade-offs.
+2. **LLD practice** — continue the active design exercise. The dedicated guided LLD programme is 30 minutes per session, six sessions per week, in Java; the seventh day is the formal LLD recovery day. Keep daily craft practice small and evidence-based.
 3. **AI knowledge** — learn one small AI-engineering concept from AI Engineering from Scratch or the reference shelf, and capture a practical takeaway. Keep this deliberately small on workdays; do not start a separate project just to satisfy it.
 
 ### Every weekend
@@ -16,7 +16,7 @@
 
 ## Time and evidence rules
 
-- Aim for **60 minutes total on a normal day**, with a **90-minute maximum planned learning time**. Split the session across the three daily non-negotiables; small focused increments count when they produce evidence.
+- Aim for **60 minutes total on a normal day**, with a **90-minute maximum planned learning time**. The LLD programme uses a dedicated 30-minute session on six days per week; balance the other daily learning increments within the existing time budget.
 - On a difficult day, preserve the contract with a small minimum: 5–15 focused minutes per daily area, or a concrete note and next action if energy is very low. Do not use this as a reason to abandon the routine.
 - Weekend project contribution gets a dedicated block; it should produce a commit, tested change, or other reviewable artifact.
 - Record actual evidence in `PROGRESS.md`. Passive reading or watching alone is not completion.
@@ -24,13 +24,14 @@
 
 ## Current LLD task
 
-The current task remains the library management system:
-- Write 5–8 core use cases.
-- Record assumptions and out-of-scope behavior.
-- Identify entities, value objects, services, and responsibilities.
-- Draw a class diagram.
-- Implement core flows in Java.
-- Add unit tests and explain trade-offs in `design.md`.
+The active LLD exercise is **Vending Machine — LLD Challenge 001**:
+- Follow the [LLD Engineering Capability Programme](lld/LLD_CAPABILITY_PROGRAM.md), including Java and OOP prerequisites.
+- Start with the real-world problem, requirements, unknowns, assumptions, actors and use cases; do not pre-decide the class design.
+- Derive business rules, invariants, domain objects, responsibilities, interactions and state transitions.
+- Create justified UML diagrams and document design alternatives/trade-offs.
+- Implement the agreed core scope in Java; add unit, integration, failure and relevant concurrency tests.
+- Produce the submission package and independently defend the design.
+- Full foundation estimate: 8–10 weeks at 30 minutes × 6 sessions/week. Aim for a usable first submission after approximately 7–10 focused sessions without lowering the quality bar.
 
 ## Current daily resource anchors
 
@@ -69,7 +70,7 @@ Every weekend:
 
 ## Non-negotiable rules
 
-- Daily: backend fundamentals, LLD practice, AI knowledge.
+- Daily: backend fundamentals and AI knowledge; LLD practice continues daily in small increments, with six formal 30-minute sessions and one formal recovery day per week.
 - Every weekend: a tangible project contribution.
 - No roadmap redesign every week.
 - No resource collecting instead of practice.
