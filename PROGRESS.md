@@ -5,7 +5,7 @@ Update this file at the end of each session. Keep entries factual. Do not claim 
 ## Locked non-negotiables
 
 - **Daily 1:** Backend from First Principles — https://backend-from-first-principle.vercel.app/
-- **Daily 2:** LLD practice — active exercise: Vending Machine LLD Challenge 001. The structured programme is 30 minutes per session, six sessions per week, in Java; one formal recovery day.
+- **Structured LLD practice:** active exercise: Vending Machine LLD Challenge 001. The programme is 30 minutes per session, six sessions per week, in Java; one formal recovery day.
 - **Daily 3:** AI knowledge — https://aiengineeringfromscratch.com/ or a relevant reference in `RESOURCE_LIBRARY.md`.
 - **Every weekend:** Make a tangible contribution to one active project: feature, bug fix, tests, reliability, documentation/design decision, or meaningful open-source contribution.
 - These are the fixed operating contract. Do not replace them with another roadmap or resource hunt.
