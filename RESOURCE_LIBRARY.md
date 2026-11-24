@@ -2,7 +2,7 @@
 
 **North star:** Become an exceptional engineer who can understand systems from first principles, design and implement them, debug failures, operate them reliably, and build useful AI-powered products. **SDE-2 is the near-term milestone, not the ceiling.**
 
-This is a reference library, not a consumption checklist. The locked operating contract is **daily Backend from First Principles + daily LLD practice + daily AI knowledge, plus a tangible project contribution every weekend**. Keep increments small and evidence-based.
+This is a reference library, not a consumption checklist. The locked operating contract is **daily Backend from First Principles + daily AI knowledge + six formal LLD sessions per week, plus a tangible project contribution every weekend**. Keep increments small and evidence-based.
 
 ## 1. Locked daily and weekend anchors
 
