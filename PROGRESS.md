@@ -16,11 +16,11 @@ Update this file at the end of each session. Keep entries factual. Do not claim 
 - **LLD programme:** Locked; starts 2026-11-25; 30 minutes × 6 sessions/week; Java; guided first-principles teaching.
 - **LLD estimate:** 8–10 weeks (24–30 focused hours), with a usable first Vending Machine submission targeted after approximately 7–10 sessions.
 - **LLD current task:** Day 1 — derive the vending machine problem statement, initial scope and unknowns, actors/use cases and domain candidates; create the first project artifact.
-- **LLD status:** Planned; not started. Do not record completion until evidence exists.
+- **LLD status:** Day 1 lesson delivered on 2026-11-26; user attempt and first artifact are pending. No design/code/test completion is claimed. No 2026-11-25 session is backfilled.
 - **LLD programme source:** `lld/LLD_CAPABILITY_PROGRAM.md`
 - **Active LLD challenge:** `exercises/vending-machine/README.md`
-- **Backend next action:** Continue the next concept; capture the concept, an example/experiment, and one trade-off or failure mode.
-- **AI next action:** Study one small concept and write a concise takeaway or connect it to a current project.
+- **Backend next action:** Defend the transactional-outbox HLD for order-status events; no implementation is claimed.
+- **AI next action:** The statistical-learning foundation and Claude Code v2.1.332 release were taught/reviewed; the personal PreSkillShellCommand hook test remains unrun.
 - **Weekend project next action:** Choose the smallest useful change in the active project, implement it, test it, and commit it.
 - **Current BUILD routine:** 5:30–7:00 AM (90 minutes) per the user's latest approved schedule. Scale down for sleep debt, illness, recovery needs or urgent work; never create catch-up debt.
 - **Evidence expected:** Design/code/tests, a concept note or experiment, or a reviewable project contribution.
@@ -43,6 +43,7 @@ Update numbers honestly. Do not infer historical completion; update only when ev
 
 | Date | Backend evidence | LLD evidence | AI knowledge evidence | Next action |
 |---|---|---|---|---|
+| 2026-11-26 | Transactional outbox HLD taught; design attempt pending | Day 1 requirements/Java prerequisites taught; user attempt pending; no artifact yet | Statistical-learning foundation + Claude Code v2.1.332 reviewed; hook test not run | Complete the Vending Machine problem statement and answer the open requirements questions |
 | YYYY-MM-DD | — | — | — | Record the next executable action after the session |
 
 ## Weekend project contribution log
