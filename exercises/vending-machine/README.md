@@ -92,7 +92,7 @@ Aim to have a usable first submission within approximately 7–10 focused sessio
 
 ## Progress
 
-No user-authored design artifact or implementation has been completed yet. The Day 1 lesson was delivered on 2026-11-26; the user's attempt and first artifact are pending. No 2026-11-25 LLD session is backfilled. Update this section only when evidence exists.
+No user-authored design artifact or implementation has been completed yet. Day 1 requirements/prerequisites were taught on 2026-11-26, Day 2 identity/value-object and invariant ownership on 2026-11-27, and Day 3 purchase-state transitions on 2026-11-28. The user's attempts and first artifact remain pending. No code or tests are claimed, and no 2026-11-25 LLD session is backfilled. Update this section only when evidence exists.
 
-- **Next session:** Day 1 — continue from the 2026-11-26 lesson; user attempt pending.
-- **First action:** write problem-statement.md with the user outcome, first-scope assumptions, actors, use cases, open questions and candidate invariants.
+- **Next session:** Continue after the scheduled recovery day; do not create catch-up debt.
+- **First action:** write problem-statement.md with the user outcome, first-scope assumptions, actors, use cases, open questions and candidate invariants; then add today's purchase transition table.
